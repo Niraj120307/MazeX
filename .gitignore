@@ -1,0 +1,21 @@
+# Build outputs (never commit binaries)
+*.exe
+*.o
+*.obj
+mazex
+test_mazex
+build/
+
+# Files the demo/tests write
+demo_maze.txt
+test_tmp_maze.txt
+
+# Editor / OS
+.vs/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Runtime output
+saves/
+benchmarks/*.csv

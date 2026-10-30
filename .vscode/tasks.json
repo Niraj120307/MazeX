@@ -1,0 +1,32 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "MAZE-X: build + run tests (console, no SFML)",
+            "type": "shell",
+            "command": ".\\build_console.bat",
+            "group": { "kind": "build", "isDefault": true },
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "MAZE-X: build GUI (MSYS2 UCRT64 + SFML 3)",
+            "type": "shell",
+            "command": ".\\build_gui.bat",
+            "group": "build",
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "MAZE-X: build everything with CMake",
+            "type": "shell",
+            "command": ".\\build_cmake.bat",
+            "group": "build",
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "MAZE-X: run GUI",
+            "type": "shell",
+            "command": ".\\MazeX.exe",
+            "problemMatcher": []
+        }
+    ]
+}

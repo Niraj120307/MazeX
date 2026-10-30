@@ -1,0 +1,16 @@
+{
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/include",
+        "${workspaceFolder}/tests",
+        "C:/msys64/ucrt64/include"
+    ],
+    "files.associations": {
+        "*.h": "cpp"
+    },
+    "code-runner.executorMap": {
+        "cpp": "cd $workspaceRoot && build_console.bat && mazex_console.exe"
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.saveAllFilesBeforeRun": true
+}
